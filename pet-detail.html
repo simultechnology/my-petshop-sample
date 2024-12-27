@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ペット詳細 - Precious Paws</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Precious Paws</div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">ホーム</a></li>
+                <li><a href="index.html#services">サービス</a></li>
+                <li><a href="index.html#pets">ペット一覧</a></li>
+                <li><a href="index.html#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pet-detail-page">
+        <div class="pet-detail-container">
+            <div class="pet-detail-hero">
+                <img src="/api/placeholder/800/400" alt="ペットの写真" class="pet-detail-image">
+            </div>
+            
+            <div class="pet-info-container">
+                <h1>マロン</h1>
+                <div class="pet-details">
+                    <div class="detail-item">
+                        <i class="fas fa-paw"></i>
+                        <span>品種：トイプードル</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-venus"></i>
+                        <span>性別：メス</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span>年齢：3ヶ月</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-weight"></i>
+                        <span>体重：1.2kg</span>
+                    </div>
+                </div>
+
+                <div class="pet-description">
+                    <h2>性格・特徴</h2>
+                    <p>とても人懐っこく、活発な性格です。他の犬たちとも仲良く遊べます。基本的なしつけはできており、トイレのトレーニングも順調に進んでいます。</p>
+                    
+                    <h2>健康状態</h2>
+                    <p>予防接種は定期的に行っており、健康状態は良好です。定期的な獣医師による健康診断も実施しています。</p>
+
+                    <h2>譲渡条件</h2>
+                    <ul>
+                        <li>室内飼育できる環境であること</li>
+                        <li>家族全員が飼育に賛成していること</li>
+                        <li>定期的な健康診断に協力できること</li>
+                        <li>終生飼育が可能であること</li>
+                    </ul>
+                </div>
+
+                <div class="inquiry-section">
+                    <h2>この子の詳細について問い合わせる</h2>
+                    <form class="inquiry-form">
+                        <div class="form-group">
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">メールアドレス</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">電話番号</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">メッセージ</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">送信する</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Precious Paws</h4>
+                <p>〒123-4567<br>東京都渋谷区○○1-2-3</p>
+            </div>
+            <div class="footer-section">
+                <h4>営業時間</h4>
+                <p>平日: 10:00 - 19:00<br>土日祝: 10:00 - 18:00</p>
+            </div>
+            <div class="footer-section">
+                <h4>フォローする</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Precious Paws. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
